@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #fff;
+
+}
+
+table {
+    background-color: #f6f6f6;
+}
+
+h4{
+    color: #009EE3;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    width: 100%;
+    background-color: rgb(31, 176, 220);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#menu-h ul li {
+    display: inline;
+    align-items: center;
+
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(14, 59, 96);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+   
+}
+
+
+

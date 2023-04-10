@@ -1,0 +1,95 @@
+body ,main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+h4 {
+  color: #009EE3;
+  margin-top: 40px;
+}
+
+.formContainer .div, input, select, button, .link{
+    height: 38px;
+    margin: 12px;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+div#form-checkout {
+    width: 100%;
+    margin: 0;
+    align-content: center;
+    padding-left: 27%;
+}
+
+.link {
+    border: none;
+    color: black;
+    text-decoration-line: none;
+    margin-top: 30px;   
+    display: block; 
+    text-align: center;
+    padding: 5px;
+    background-color:  rgb(31, 176, 220);;
+}
+
+button {
+    padding: 5px;
+    background-color:  rgb(31, 176, 220);
+    border: none;
+}
+.button-qrcode{
+    height: 70px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    width: 100%;
+    background-color: rgb(31, 176, 220);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#menu-h ul li {
+    display: inline;
+    align-items: center;
+
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(14, 59, 96);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+   
+}
+
+
+

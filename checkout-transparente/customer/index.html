@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Template Code - Checkout Pro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://sdk.mercadopago.com/js/v2"></script>
+  <script type="text/javascript" src="js/index.js" defer></script>
+</head>
+
+<body>
+  <nav id="menu-h">
+    <ul>
+        <li>
+            <a href="../../checkout-transparente/listagem/payments.html">
+                Listagem
+            </a>
+        </li>
+
+        <li><a href="../pix/index.html">Offline (Pix e Boleto)</a></li>
+
+        <li><a href="">Cartão Salvo</a></li>
+                
+        <li><a href="../../checkout-transparente/index.html">Cartão</a></li>
+
+        <li><a href="../../checkout-pro/client/index.html">Checout Pro</a></li>
+
+        <li><a href="../../checkout-bricks/index.html">Checkout bricks</a></li>
+        
+        <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h4>Pagamento cartão Salvo</h4>
+
+    <form id="form-checkout" method="POST" >
+      <select type="text" id="form-checkout__cardId"></select>
+      <div id="form-checkout__securityCode-container" class="container"></div>
+      <input type="number" placeholder="amount" id="form-checkout-amount"/>
+      <input name="token" id="token" hidden>
+      <button>Enviar</button>
+    </form>
+    
+  </main>
+
+</body>
+
+</html>
+
+  

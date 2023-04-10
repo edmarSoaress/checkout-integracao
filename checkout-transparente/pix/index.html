@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Template Code - Checkout Pro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://sdk.mercadopago.com/js/v2"></script>
+  <script type="text/javascript" src="js/index.js" defer></script>
+</head>
+
+<body>
+  <nav id="menu-h">
+    <ul>
+        <li>
+            <a href="../../checkout-transparente/listagem/payments.html">
+                Listagem
+            </a>
+        </li>
+
+        <li><a href="">Offline (Pix e Boleto)</a></li>
+
+        <li><a href="../customer/index.html">Cartão salvo</a></li>
+                
+        <li><a href="../../checkout-transparente/index.html">Cartão</a></li>
+
+        <li><a href="../../checkout-pro/client/index.html">Checout Pro</a></li>
+
+        <li><a href="../../checkout-bricks/index.html">Checkout bricks</a></li>
+
+        
+        <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h4>Pagamento com Pix/Boleto</h4>
+    <div id="form-checkout">
+      <div class="formContainer">
+        <div>
+          <input id="form-checkout__payerFirstName" name="payerFirstName" type="text" placeholder="first name">
+        </div>
+        <div>
+          <input id="form-checkout__payerLastName" name="payerLastName" type="text" placeholder="last name">
+        </div>
+        <div>
+          <input id="form-checkout__email" name="email" type="text" placeholder="email">
+        </div>
+        <div>
+          <select id="form-checkout__identificationType" name="identificationType" type="text" ></select>
+        </div>
+        <div>
+          <select id="form-checkout__method" name="paymentMethodId" type="text" >
+              <option value="pix">PIX</option>
+              <option value="bolbradesco" >Boleto</option>
+          </select>
+        </div>
+        <div>
+          <input id="form-checkout__identificationNumber" name="identificationNumber" type="text" placeholder="cpf">
+        </div>
+      </div>
+  
+      <div>
+        <div id="form-button">
+          <input type="hidden" name="transactionAmount" id="transactionAmount" value="5">
+          <input type="hidden" name="description" id="description" value="Nome do Produto">
+          <br>
+          <button class="checkout-btn" id="checkout-btn">Pagar</button>
+        </div>
+      </div>
+
+      <div class="button-qrcode">
+        <a class="link" href="" id="link">Abrir ticket de pagamento </a>
+        <img style="width:200px" id="image">
+      </div>
+    </form>
+  </main>
+
+</body>
+
+</html>
+
+  

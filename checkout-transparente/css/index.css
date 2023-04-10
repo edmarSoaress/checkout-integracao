@@ -1,0 +1,95 @@
+body ,main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+h4 {
+  margin-top: 30px;
+  color: #009EE3;
+
+}
+
+#form-checkout div, input, select, button, progress{
+    height: 35px;
+    margin: 12px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+
+#form-checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 90%;
+}
+
+.container {
+  display: flex;
+  border: 1px solid rgb(118, 118, 118);
+  border-radius: 2px;
+  padding: 1px 2px;
+}
+
+.form-checkout__submit {
+  color: aqua;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    width: 100%;
+    background-color: rgb(31, 176, 220);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#menu-h ul li {
+    display: inline;
+    align-items: center;
+
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(14, 59, 96);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+   
+}
+
+button {
+  padding: 5px;
+  background-color:  rgb(31, 176, 220);
+  border: none;
+}
+
+
+
